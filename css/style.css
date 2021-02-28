@@ -1,0 +1,79 @@
+/* Reset */
+
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Geral */
+
+.inativo{
+    display: none;
+}
+
+/* Login 
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login img{
+    max-width: 120px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+.login label{
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.login input{ 
+    padding: 8px;
+    font-size: 1.1em;
+}
+
+.login button{
+    margin: 30px auto;
+    padding: 8px;
+    font-size: 1.1em;
+    min-width: 150px;
+    display: block;
+    
+}
+
+.inativo{
+    display: none;
+}
+*/

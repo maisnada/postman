@@ -1,0 +1,38 @@
+/* Login */
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login img{
+    max-width: 120px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+.login label{
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.login input{ 
+    padding: 8px;
+    font-size: 1.1em;
+}
+
+.login button{
+    margin: 30px auto;
+    padding: 8px;
+    font-size: 1.1em;
+    min-width: 150px;
+    display: block;
+    
+}
