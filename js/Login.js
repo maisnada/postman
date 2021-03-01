@@ -13,7 +13,7 @@ export default class Login extends Component {
 
         this._cb = cb;
 
-        this._render();        
+        this._render();
     }
 
     _template() {
@@ -31,7 +31,7 @@ export default class Login extends Component {
                 <button>Login!</button>
             </form>
 
-            <img src="img/loading.gif" id="loading" class="inativo"/>
+            <img src="img/loading.gif" id="loading" class="inativo"/>            
 
         </section>`;
     }
@@ -71,8 +71,17 @@ export default class Login extends Component {
                 .then(json => {
 
                     this._cb(JSON.stringify(json));
-                    
+
                 });
         })
+    }
+
+    erro() {
+
+        this._app.querySelector('.login #email').value = '';
+        this._app.querySelector('.login #password').value = '';
+
+        loading.classList.toggle("inativo");
+
     }
 }
