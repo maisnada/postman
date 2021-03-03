@@ -11,9 +11,9 @@ class App {
 
         let login = new Login(document, this.usuarioAutenticado);
 
-        let toast = new Toast(document);
+       /*  let toast = new Toast(document);
 
-        toast.show('Erro ao realizar o login!');
+        toast.show('Erro ao realizar o login!'); */
 
     }
 
